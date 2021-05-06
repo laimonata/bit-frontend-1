@@ -1,0 +1,182 @@
+<!-- Cia yra html komentaras -->
+
+<!-- 
+    Doctype Elementas nurodo naudojama html standarta. Dabartinis html standartas yra html 5, 
+    bet doctype dalyje reikia nurodyti tiesiog HTML.  
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Pasako Narsyklei kokia teksto koduote naudoti -->
+    <meta charset="UTF-8">
+
+    <!-- Internet explorer palaikymo versija -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Viewport meta tag'as ledzia kurti responsive (mobile/tablet) svetaines -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Meta aprasymas matomas Google paieskoje/facebook nuorods atvaizdavime ir tt">
+    
+    <!-- Dokumento pavadinimas - Atvaizduojamas narsykles tab'o virsuje -->
+    <title>BIT</title>
+</head>
+<body>
+    <!-- Body daylje rasomas visas vartotojui matomas kodas ir turinys -->
+    <!-- HTML Elementas, HTML Tag -->
+
+
+    <!-- Antrastes elementai -->
+
+    <!-- Rekomenduoja tureti 1 H1 antraste viename puslaypje -->
+    <h1>
+        Pagrindine puslapio antraste
+    </h1> 
+
+    
+
+    <h3>
+        Trecia pagal svarba antraste
+    </h3>
+
+    <!-- Paragrafas -->
+    <p>
+        Lorem
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo,
+        vitae voluptate cumque sequi, fugiat tempore debitis sapiente 
+        vero ratione accusamus deserunt? Maxime, inventore! Exercitationem,
+        nesciunt eum et dolorem quam sed?
+    </p>
+
+    <p>
+        Lorem
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo,
+        vitae voluptate cumque sequi, fugiat tempore debitis sapiente 
+        vero ratione accusamus deserunt? Maxime, inventore! Exercitationem,
+        nesciunt eum et dolorem quam sed?
+    </p>
+    
+    
+    <h2>
+        Sarasai
+    </h2>
+
+    <h3>
+        UL - Unordered List
+    </h3>
+    <!-- Sarasai - UL = Unordered List -->
+    <ul>
+        <!-- List Item - Saraso elementas - LI Elementai gali egzistuoti tik UL arba OL tipo elementuos -->
+        <li>
+            Elementas 1
+        </li>
+        
+        <li>
+            Elementas 2
+        </li>
+
+        <li>
+            Elementas 3
+        </li>
+    </ul>
+
+    <h3>
+        OL - Ordered List
+    </h3>
+    <!-- OL - Ordered List -->
+    <ol>
+        <li>
+            Elementas 1
+        </li>
+        
+        <li>
+            Elementas 2
+        </li>
+
+        <li>
+            Elementas 3
+        </li>
+    </ol>
+
+    <h2>
+        Nuorodos
+    </h2>
+
+    <!-- A - Anchor tagas naudojams nuorodoms - visada reikalingas href atributas 
+
+    ND: Kokius dazniausiai naudojamus atributus gali tureti A elementas
+    
+    -->
+
+    <!-- target= nustato kaip bus atidaroma nuoroda -->
+    <a href="https://google.lt" target="_blank">
+        Nuoroda i kontaktu puslapi
+    </a>
+
+    <!-- NAMU DARBAMS -->
+    <h2>
+        Lenteles elementai
+        <h3>
+        <table style="width:100%">
+            <tr>
+                <th>Vardas</th>
+                <th>Miestas</th>
+                <th>Amzius</th>
+            </tr>
+            <tr>
+                <td>Tomas</td>
+                <td>Kaunas</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Marija</td>
+                <td>Vilnius</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Giedrius</td>
+                <td>Palanga</td>
+                <td>18</td>
+            </tr>
+        </table>
+        </h3>
+    </h2>
+
+    <h2>
+        Teksto formatavimo elementai
+    </h2>
+    <p>
+        <em>Pasviras tekstas</em>, <ins>pabrauktas tekstas</ins>, 
+        <strong>storas tekstas</strong>, <mark>pazymetas tekstas</mark>,
+        <small>mazas tekstas</small>, <del>isbrauktas tekstas</del>
+    </p>
+
+    <h2>
+        Nuotraukos/Paveiksliukai/Video*
+    </h2>
+    <figure>
+             <img src="https://www.google.lt/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png"
+             alt="Google logotipas"
+             title="Google">
+             <figcaption>Google</figcaption>
+    </figure>
+
+    
+    <!-- **** Papildomai *** -->
+    <h2>
+        Formos elementai
+        <h3>
+            <form>
+                <label for="fname">Vardas:</label><br>
+                <input type="text" id="fname" name="fname" value="Vardenis"><br>
+                <label for="lname">Pavarde:</label><br>
+                <input type="text" id="lname" name="lname" value="Pavardenis">
+                <input type="submit" value="Pateikti">
+            </form>
+        </h3>
+    </h2>
+
+
+</body>
+</html>
