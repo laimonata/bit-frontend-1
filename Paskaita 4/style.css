@@ -1,3 +1,7 @@
+body {
+    background: lightgoldenrodyellow;
+  }
+
 h1 {
     color:firebrick;
     font-size: 50px;
@@ -16,4 +20,8 @@ form {
 ul{
     color:maroon;
     font-size: 15px;
+}
+
+#submit1 {
+    background:sandybrown;
 }
