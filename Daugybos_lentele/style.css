@@ -1,0 +1,16 @@
+.bold {
+    font-weight: 700;
+    background: yellow;
+
+}
+table {
+    font-size: 30px;
+    line-height: 40px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    width: 30%;
+}
+tr, td {
+    border: 1px solid black;
+}
