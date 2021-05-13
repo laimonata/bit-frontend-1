@@ -25,3 +25,8 @@ ul{
 #submit1 {
     background:sandybrown;
 }
+
+.container {
+  max-width: 30%;
+  margin: 50px auto;
+}
