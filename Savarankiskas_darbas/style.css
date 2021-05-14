@@ -1,0 +1,60 @@
+body {
+  background-image: url(https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
+}
+
+section {
+  text-align: center;
+  margin: 0 auto;
+  padding: 400px;
+  color: white;
+  font-family: "Alfa Slab One", cursive;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 300px;
+  margin: 0 auto;
+  letter-spacing: 20px;
+}
+
+img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 15%;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+#button1 {
+  background: white;
+  color: red;
+  border-color: white;
+}
+
+#button2 {
+  background: red;
+  color: white;
+  border-color: white;
+}
+
+p {
+  margin-top: -25px;
+  margin-bottom: 25px;
+}
+
+.img-spacing {
+  margin-right: 3%;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+
