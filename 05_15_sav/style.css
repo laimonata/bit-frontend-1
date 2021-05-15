@@ -9,6 +9,14 @@ h1 {
     line-height: 1;
 }
 
+p {
+    color: grey;
+}
+
+img {
+    width: 100%;
+}
+
 .contact {
     padding: 100px 300px;
 }
@@ -20,21 +28,31 @@ h1 {
 
 .info-wrapper {
     float: left;
+    max-width: 450px;
+    margin-right: 3%;
 }
 
 .form-wrapper {
     float: left;
+    max-width: 450px;
 }
 
 .form-element {
     background: #f3f3f3;
     width: 300px;
-    height: 30px;
     border: none;
     margin: 5px;
-    padding: 3px 10px ;
+    padding: 12px 10px ;
 }
 
 #message {
     height: 140px;
+}
+
+#submit {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 5px;
 }
