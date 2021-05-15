@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.contact {
+    padding: 100px 300px;
+}
+
+.container {
+    max-width: 1140;
+    margin: 0 auto;
+}
+
+.info-wrapper {
+    float: left;
+}
+
+.form-wrapper {
+    float: left;
+}
+
+.form-element {
+    background: #f3f3f3;
+    width: 300px;
+    height: 30px;
+    border: none;
+    margin: 5px;
+    padding: 3px 10px ;
+}
+
+#message {
+    height: 140px;
+}
