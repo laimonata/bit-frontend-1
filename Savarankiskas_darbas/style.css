@@ -6,13 +6,16 @@ body {
 
 section {
   text-align: center;
-  margin: 0 auto;
   padding: 400px;
   color: white;
   font-family: "Alfa Slab One", cursive;
   letter-spacing: 1px;
-  max-width: 1280px;
-  width:auto;
+  
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;;
 }
 
 h1 {
@@ -21,9 +24,9 @@ h1 {
   letter-spacing: 20px;
 }
 
-img {
-  margin-top: 10px;
-  margin-bottom: 10px;
+p {
+  margin-top: -25px;
+  margin-bottom: 25px;
 }
 
 button {
@@ -46,20 +49,11 @@ button {
   border-color: white;
 }
 
-p {
-  margin-top: -25px;
-  margin-bottom: 25px;
+img {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .img-spacing {
   margin-right: 3%;
 }
-
-.container {
-  
-  margin: 0 auto;
-  
-  
-}
-
-
