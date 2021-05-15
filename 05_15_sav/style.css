@@ -1,59 +1,65 @@
+@media (max-width: 768px) {
+  body {
+    margin-left: -14%;
+  }
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 
 h1 {
-    font-size: 40px;
-    font-weight: 900;
-    line-height: 1;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1;
+  margin-top: 0;
 }
 
 p {
-    color: grey;
+  color: grey;
 }
 
 img {
-    width: 100%;
+  width: 90%;
 }
 
 .contact {
-    padding: 100px 300px;
+  padding: 9% 24%;
 }
 
 .container {
-    max-width: 1140;
-    margin: 0 auto;
+  max-width: 1180;
+  margin: 0 auto;
 }
 
 .info-wrapper {
-    float: left;
-    max-width: 450px;
-    margin-right: 3%;
+  float: left;
+  max-width: 480px;
 }
 
 .form-wrapper {
-    float: left;
-    max-width: 450px;
+  float: left;
+  max-width: 480px;
 }
 
 .form-element {
-    background: #f3f3f3;
-    width: 300px;
-    border: none;
-    margin: 5px;
-    padding: 12px 10px ;
+  background: #f3f3f3;
+  width: 300px;
+  border: none;
+  margin: 6px;
+  padding: 13px 10px;
 }
 
 #message {
-    height: 140px;
-    font-family: 'Roboto', sans-serif;
+  height: 160px;
+  font-family: "Roboto", sans-serif;
 }
 
 #submit {
-    background: black;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin: 5px 5px;
+  background: black;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  margin: 5px 5px;
 }
