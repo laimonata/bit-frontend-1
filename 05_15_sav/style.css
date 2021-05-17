@@ -1,9 +1,3 @@
-@media (max-width: 768px) {
-  body {
-    margin-left: -14%;
-  }
-}
-
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -24,28 +18,28 @@ img {
   width: 90%;
 }
 
-.contact {
-  padding: 9% 24%;
-}
-
 .container {
-  max-width: 1180;
+  max-width: 1180px;
   margin: 0 auto;
 }
 
 .info-wrapper {
   float: left;
-  max-width: 480px;
+  width: 50%;
+}
+
+.contact {
+  margin-top: 100px;
 }
 
 .form-wrapper {
   float: left;
-  max-width: 480px;
+  width: 50%;
 }
 
 .form-element {
   background: #f3f3f3;
-  width: 300px;
+  width: 100%;
   border: none;
   margin: 6px;
   padding: 13px 10px;
@@ -62,4 +56,19 @@ img {
   padding: 12px 20px;
   border-radius: 5px;
   margin: 5px 5px;
+}
+
+
+@media (max-width: 768px) {
+  .contact {
+    margin-top: 100px;
+  }
+
+  .info-wrapper {
+    width: 100%;
+  }
+
+  .form-wrapper {
+    width: 100%;
+  }
 }
