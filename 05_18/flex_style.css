@@ -1,0 +1,32 @@
+body {
+    background: rgb(130, 130, 211);
+}
+
+.container {
+    width: 1140px;
+    margin: 10% auto;
+    max-width: 100%;
+}
+
+.card {
+    background: rgb(219, 212, 235);
+    padding: 15px;
+    border-radius: 10px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.row {
+    display:flex;
+    align-items:stretch;
+    flex-wrap: wrap;
+}
+
+.col {
+    width:31%;
+    margin: 0 10px;
+    flex-grow: 1;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+
+}
