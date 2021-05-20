@@ -1,69 +1,77 @@
 body {
-    background: rgb(240, 238, 238);
-    font-family: 'Nunito', sans-serif;
+  background: rgb(240, 238, 238);
+  font-family: "Nunito", sans-serif;
+}
+
+a img:hover {
+  filter: brightness(88%);
+  transition: 0.3s ease-in-out;
 }
 
 .container {
-    width:1140px;
-    margin: 0 auto;
-    max-width: 100%;
+  width: 1140px;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 .card {
-    background:white;
-    height: 100%;
-    box-shadow: 0 1px 10px 0 rgb(0 0 0 / 10%);
-    border-radius: 3px;
+  background: white;
+  height: 100%;
+  box-shadow: 0 1px 10px 0 rgb(0 0 0 / 10%);
+  border-radius: 3px;
 }
 
 .card img {
-    width:100%;
+  width: 100%;
 }
 
 .row {
-    display:flex;
-    align-items:stretch;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
 }
 
 .col {
-    width:30%;
-    margin: 0 10px;
-    flex-grow: 1;
-    box-sizing: border-box;
-    margin-bottom: 15px;
-
+  width: 30%;
+  margin: 0 10px;
+  flex-grow: 1;
+  box-sizing: border-box;
+  margin-bottom: 15px;
 }
 
 .card-description {
-    padding: 10px;
-    font-weight: 700;
-    font-size: 16px;
-    
+  padding: 10px;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .title {
-    font-weight: 700;
-    font-size: 24px;
-  }
+  font-weight: 700;
+  font-size: 24px;
+}
 
 .description {
-    color:grey;
-    display: inline-block;
+  color: grey;
 }
 
 #submit {
-    border-radius: 3px;
-    background: rgb(211, 83, 83);
-    padding: 10px 25px;
-    color: white;
-    font-weight: 700;
-    font-size: 20px;
-    font-family: 'Nunito', sans-serif;
-    border: none;
-
+  border-radius: 3px;
+  background: rgb(211, 83, 83);
+  padding: 10px 25px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  border: none;
 }
 
-.download {
-    width: 1%;
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container .row .item-download-icon {
+  position: absolute;
+  left: 40%;
+  top: 28%;
 }
