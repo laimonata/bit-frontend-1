@@ -12,6 +12,7 @@ body {
 #header {
     position: fixed;
     top:0;
+    width: 100%;
     background: #fff;
 }
 
@@ -27,6 +28,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     box-sizing: border-box;
+    
 }
 
 .row {
@@ -34,6 +36,7 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 }
 
 .nav-menu {
@@ -43,11 +46,112 @@ body {
 
 ul a {
     text-decoration: none;
-    color: #777;
+    color: black;
 
 }
 
 .nav-menu li {
     padding: 10px;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-below {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    list-style: none;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content-below {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    list-style: none;
+  }
+
+  .dropdown-below:hover .dropdown-content-below {
+    display: block;
+  }
+
+  .banner-intro {
+    position: relative;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.banner-area {
+    background: #f9f9ff;
+    padding-top: 50px;
+}
+
+
+
+.image {
+    width:30%;
+    align-self: flex-end;
+}
+ 
+.banner-intro h6 {
+    padding-top: 100px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 400;
+}
+ 
+.banner-intro h1 {
+    margin: 20px 0;
+    font-size: 60px;
+    color: black;
+    line-height: 1.2em;
+    font-weight: 600;
+}
+ 
+.banner-intro p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.button-intro {
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    color: white;
+    background: -webkit-linear-gradient(0deg,#8490ff 0%,#62bdfc 100%);
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    width:110px;
+}
+
+.banner-intro a {
+    text-decoration: none;
+}
+
 
