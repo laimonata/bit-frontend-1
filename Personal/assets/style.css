@@ -148,9 +148,14 @@ ul a {
   display: inline-block;
   font-weight: 500;
   position: relative;
-  width: 110px;
 }
 
 .banner-intro a {
   text-decoration: none;
+}
+
+.about-area {
+  background: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
