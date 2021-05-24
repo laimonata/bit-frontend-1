@@ -14,6 +14,7 @@ body {
   top: 0;
   width: 100%;
   background: #fff;
+  z-index: 99;
 }
 
 .main-menu {
@@ -23,8 +24,8 @@ body {
 
 .container {
   width: 100%;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 100px;
+  padding-left: 100px;
   margin-right: auto;
   margin-left: auto;
   box-sizing: border-box;
@@ -93,26 +94,32 @@ ul a {
 
 .banner-intro {
   position: relative;
-  width: 100%;
+  box-sizing: border-box;
+  width: 50%;
   padding-right: 50px;
   padding-left: 50px;
   padding-top: 50px;
   display: flex;
   flex-direction: column;
+
 }
 
 .banner-area {
   background: #f9f9ff;
   padding-top: 50px;
+  padding-bottom: 50px;
+  
 }
 
 .image {
   width: 400px;
-  align-self: flex-end;
+  padding-top: 50px;
+  align-self: center;
+  
 }
 
 .banner-intro h6 {
-  padding-top: 100px;
+  
   letter-spacing: 2px;
   font-size: 14px;
   font-weight: 400;
