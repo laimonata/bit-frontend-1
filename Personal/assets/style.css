@@ -52,6 +52,14 @@ ul a {
   padding: 10px;
 }
 
+.nav-menu li a:hover {
+  color:#8490ff;
+}
+
+.nav-menu .active {
+  color:#8490ff;
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -148,6 +156,7 @@ ul a {
   display: inline-block;
   font-weight: 500;
   position: relative;
+  
 }
 
 .banner-intro a {
