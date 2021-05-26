@@ -35,7 +35,7 @@ body {
 .row {
   display: flex;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -54,11 +54,11 @@ ul a {
 }
 
 .nav-menu li a:hover {
-  color:#8490ff;
+  color: #8490ff;
 }
 
 .nav-menu .active {
-  color:#8490ff;
+  color: #8490ff;
 }
 
 .dropdown {
@@ -110,25 +110,21 @@ ul a {
   padding-top: 50px;
   display: flex;
   flex-direction: column;
-
 }
 
 .banner-area {
   background: #f9f9ff;
   padding-top: 50px;
   padding-bottom: 50px;
-  
 }
 
 .image {
   width: 400px;
   padding-top: 50px;
   align-self: center;
-  
 }
 
 .banner-intro h6 {
-  
   letter-spacing: 2px;
   font-size: 14px;
   font-weight: 400;
@@ -157,7 +153,6 @@ ul a {
   display: inline-block;
   font-weight: 500;
   position: relative;
-  
 }
 
 .button-intro:hover {
@@ -175,7 +170,6 @@ ul a {
   padding-bottom: 50px;
 }
 
-
 .section-gap {
   padding: 120px 0;
 }
@@ -183,25 +177,23 @@ ul a {
 .menu-content {
   position: relative;
   width: 100%;
-  padding-right: 15px ;
-  padding-left: 15px ;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .title {
   text-align: center;
   padding-right: 100px;
   padding-left: 100px;
-  
 }
 
 .title h1 {
   margin-bottom: 10px;
   font-size: 36px;
   color: #222222;
-  line-height: 1,2em;
+  line-height: 1, 2em;
   margin-top: 0;
   font-weight: 600;
- 
 }
 
 .title p {
@@ -210,21 +202,17 @@ ul a {
   padding-top: 15px;
   align-self: center;
   display: block;
-
 }
 
 .col-el {
   position: relative;
-  width:33%;
+  width: 33%;
   padding-right: 15px;
   padding-left: 15px;
   display: flex;
-  align-items:center;
+  align-items: center;
   box-sizing: border-box;
   justify-content: space-between;
-  
-  
-  
 }
 
 .service {
@@ -233,20 +221,17 @@ ul a {
   width: 100%;
 }
 
-.service a{
+.service a {
   text-decoration: none;
   color: #222;
-
 }
 
-.service a:hover {
-  color:#8490ff;
-
+.col-el:hover .service a {
+  color: #8490ff;
 }
 
-.service a i{
+.service a i {
   font-size: 35px;
-  
 }
 
 .service h4 {
@@ -265,3 +250,170 @@ ul a {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
+/* BLOG-HOME */
+
+.blog-home-area {
+  background: url(https://preview.colorlib.com/theme/personal/img/blog/xblog-home-banner.jpg.pagespeed.ic.aiMsZVJs5x.jpg)
+    bottom;
+  background-size: cover;
+  padding: 130px 0;
+  position: relative;
+  
+}
+
+.blog-home-area .overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.about-content {
+  margin-top: 70px;
+  padding: 90px 0;
+  text-align: center;
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.about-content h1 {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.2em;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #ffff;
+}
+
+.about-content p {
+  margin: 20px 0;
+  color: #ffff;
+}
+
+.about-content .button-blog {
+  border-radius: 0;
+  background: #ffff;
+  color: #222;
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+
+.about-content a {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.button-blog {
+  line-height: 42px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.about-content a:hover {
+  background: #222;
+  color: #ffff;
+  border-color: #ffff;
+}
+
+.top-category-widget-area {
+  background: #ffff;
+  padding-bottom: 90px;
+  padding-top: 90px;
+  position: relative;
+  
+
+}
+
+.single-widget {
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.widget-content {
+  position: relative;
+  opacity: 1;
+}
+
+
+.widget-content .overlay {
+  background: rgba(0,0,0,.85);
+  margin: 7%;
+}
+
+.widget-content:hover .overlay {
+  background: #8490ff;
+  filter:opacity(90%);
+
+}
+
+.overlay a {
+  text-decoration: none;
+  background: transparent;
+}
+
+.thumb img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+}
+
+.widget-details {
+  position: absolute;
+  top: 32%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffff;
+  bottom: 0;
+  
+}
+
+.widget-details h4 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  line-height: 1.2em;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+
+.widget-details span {
+  display: inline-block;
+  background: #fff;
+  width: 60%;
+  height: 1%;
+}
+
+.widget-details p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+
+}
+
+
+
+
