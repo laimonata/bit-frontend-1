@@ -160,6 +160,11 @@ ul a {
   
 }
 
+.button-intro:hover {
+  box-shadow: 5px 10px 5px 0px #bec3eb;
+  filter: brightness(100%);
+}
+
 .banner-intro a {
   text-decoration: none;
 }
@@ -225,11 +230,7 @@ ul a {
 .service {
   text-align: center;
   margin-top: 60px;
-  
-  
   width: 100%;
-  
-
 }
 
 .service a{
