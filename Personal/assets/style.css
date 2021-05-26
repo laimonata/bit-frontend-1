@@ -24,17 +24,18 @@ body {
 
 .container {
   width: 100%;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   box-sizing: border-box;
+  max-width: 1140px;
 }
 
 .row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:space-between;
   flex-wrap: wrap;
 }
 
@@ -167,4 +168,99 @@ ul a {
   background: white;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+
+.section-gap {
+  padding: 120px 0;
+}
+
+.menu-content {
+  position: relative;
+  width: 100%;
+  padding-right: 15px ;
+  padding-left: 15px ;
+}
+
+.title {
+  text-align: center;
+  padding-right: 100px;
+  padding-left: 100px;
+  
+}
+
+.title h1 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  color: #222222;
+  line-height: 1,2em;
+  margin-top: 0;
+  font-weight: 600;
+ 
+}
+
+.title p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-top: 15px;
+  align-self: center;
+  display: block;
+
+}
+
+.col-el {
+  position: relative;
+  width:33%;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  align-items:center;
+  box-sizing: border-box;
+  justify-content: space-between;
+  
+  
+  
+}
+
+.service {
+  text-align: center;
+  margin-top: 60px;
+  
+  
+  width: 100%;
+  
+
+}
+
+.service a{
+  text-decoration: none;
+  color: #222;
+
+}
+
+.service a:hover {
+  color:#8490ff;
+
+}
+
+.service a i{
+  font-size: 35px;
+  
+}
+
+.service h4 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.2em;
+  font-weight: 600;
+}
+
+.service p {
+  max-width: 318px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
