@@ -259,7 +259,6 @@ ul a {
   background-size: cover;
   padding: 130px 0;
   position: relative;
-  
 }
 
 .blog-home-area .overlay {
@@ -334,8 +333,6 @@ ul a {
   padding-bottom: 90px;
   padding-top: 90px;
   position: relative;
-  
-
 }
 
 .single-widget {
@@ -349,21 +346,21 @@ ul a {
   opacity: 1;
 }
 
-
 .widget-content .overlay {
-  background: rgba(0,0,0,.85);
+  background: rgba(0, 0, 0, 0.85);
   margin: 7%;
 }
 
 .widget-content:hover .overlay {
   background: #8490ff;
-  filter:opacity(90%);
-
+  filter: opacity(90%);
+  transition: all .3s ease 0s;
 }
 
 .overlay a {
   text-decoration: none;
   background: transparent;
+
 }
 
 .thumb img {
@@ -385,7 +382,6 @@ ul a {
   margin-right: auto;
   color: #ffff;
   bottom: 0;
-  
 }
 
 .widget-details h4 {
@@ -410,10 +406,111 @@ ul a {
 .widget-details p {
   margin-top: 0;
   margin-bottom: 1rem;
+}
 
+.post-content-area {
+    background: #fff;
+    display: block;
+    box-sizing: border-box;
+
+    
+}
+
+.post-content-area .single-post {
+  margin-bottom: 50px;
+}
+
+.post-list {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  
+}
+
+.left-col {
+  text-align: right;
+  margin-top: 35px;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+.tags {
+  margin-bottom: 30px;
 
 }
 
+.left-col ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
+.left-col ul li {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.left-col ul li a {
+  color:#222;
+  text-decoration: none;
+}
+
+.left-col ul li a:hover {
+  color:#8490ff;
+  
+}
+
+.user-name .date .view .comments {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    
+
+    
+}
+
+
+.user-name p a {
+  color: #777;
+  margin-right: 10px;
+  text-decoration: none;
+  
+}
+
+.user-name .date .view .comments  p span {
+  font-weight: 900;
+  color: #222;
+  
+  
+}
+
+.post-col {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 75%;
+    box-sizing: border-box;
+}
+
+.post-img img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
 
 
