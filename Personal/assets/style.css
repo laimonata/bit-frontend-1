@@ -630,14 +630,16 @@ ul a {
 /* Right column */
 
 .right-col {
-  padding-bottom: 120px;
-  max-width: 34%;
+  
+  
   position: relative;
   width: 100%;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  max-width: 34%;
   box-sizing: border-box;
+  
   
 }
 
@@ -673,7 +675,7 @@ ul a {
   margin: 0;
 }
 
-::placeholder {
+.search-form ::placeholder {
   color: #fff;
   opacity: 1;
 }
@@ -742,7 +744,7 @@ ul a {
   transition: all 0.3s ease 0s;
 }
 
-.popular-title {
+.widget-title {
   background: #8490ff;
   color: #fff;
   text-align: center;
@@ -801,4 +803,57 @@ ul a {
   margin-bottom: 0;
   margin-top: 0;
 
+}
+
+.ads-widget a {
+  text-decoration: none;
+}
+
+.ads-widget a img {
+  width:100%;
+  max-width: 100%;
+
+}
+
+.category-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.category-list li {
+  padding-top: 15px;
+  padding-bottom: 8px;
+  border-bottom: 2px dotted #eee;
+}
+
+.category-list li a {
+  display: flex;
+  justify-content: space-between;
+  color:#777;
+  text-decoration: none;
+}
+
+.category-list li a p {
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 0;
+
+}
+
+.category-list li:hover {
+  border-color: #8490ff;
+  transition: all 0.3s ease 0s;
+
+}
+
+.category-list li:hover p {
+  color: #8490ff;
+  transition: all 0.3s ease 0s;
+}
+
+.newsletter-widget p {
+  text-align: center;
+  margin: 20px 0;
+  
 }
